@@ -38,7 +38,7 @@ int main (){
     bool teacher = true;
 
     std::cout << student << teacher << std::endl;  //this will print 0 and 1 
-    
+     
     //string (objects tha represents a sequence of text )
 
     std::string name = "nithin";
@@ -46,5 +46,11 @@ int main (){
 
     std::cout << name << age_of_nithin << std::endl ;
    
+  // using const key word 
+    const double PI = 3.14149 ;
+    // PI = 2 ;  can modify 
+    double radius = 10 ;
+    double circumference = 2 * PI * radius ;
+    std::cout << circumference << "cm" ;
     return 0 ;
 }
