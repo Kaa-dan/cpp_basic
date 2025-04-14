@@ -15,8 +15,10 @@ int main()
 
     double c = (double)5;
     std::cout << b << " hey  " << z << (char)100 << std::endl
-              << c;
+              << c << std::endl;
 
     int correct = 8;
     int question = 10;
+
+    std::cout << correct / question << "%";
 }
