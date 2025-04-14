@@ -11,7 +11,12 @@ int main()
 
     double b = (int)3.15;
 
-    std::cout << b;
-    
-    
+    char z = 100; // this will show the asci value
+
+    double c = (double)5;
+    std::cout << b << " hey  " << z << (char)100 << std::endl
+              << c;
+
+    int correct = 8;
+    int question = 10;
 }
