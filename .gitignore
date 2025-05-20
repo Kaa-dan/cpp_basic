@@ -2,5 +2,6 @@
 *.exe
 test 
 switch
+do-while-loop
 string-methods
 while-loop
