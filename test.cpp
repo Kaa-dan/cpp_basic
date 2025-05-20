@@ -1,8 +1,18 @@
 #include <iostream>
+using namespace std;
 
+namespace first
+{
+    int x = 1;
+}
 int main(){
-    char b = 'AB';
-    bool a = true;
-    std::cout<<b << '\n' << a;
+    // using namespace first ;
+
+    // char b = 'AB';
+    // bool a = true;
+    // // cout<<b << '\n' << a;
+    // cout << x ;
+
+    
 
 }

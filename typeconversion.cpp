@@ -20,5 +20,9 @@ int main()
     int correct = 8;
     int question = 10;
 
+    double score = correct/question *100 ; // here i will get 0 its becuas am using int
+
+    score = correct/(double) question *100; // this will show the correct output
+
     std::cout << correct / question << "%";
 }
