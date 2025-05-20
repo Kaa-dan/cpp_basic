@@ -2,6 +2,7 @@
 *.exe
 test 
 switch
+function
 for-loop
 random-number
 do-while-loop
