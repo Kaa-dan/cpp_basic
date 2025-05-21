@@ -6,6 +6,7 @@ int main()
 {
     double a;
     double b;
+    
     double c;
 
     std::cout << "Enter side A: ";
