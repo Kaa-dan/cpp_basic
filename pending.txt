@@ -4,3 +4,4 @@ pending topic
 -> bubble sort implementation 
 -> luhn algorith 
 -> reference deference operator 
+-> dynamic memory go through it once again 

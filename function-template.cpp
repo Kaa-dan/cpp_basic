@@ -1,4 +1,11 @@
 #include <iostream>
+
+template <typename T> // template parameter declaration
+
+T max(T x, T y)
+{
+    return (x > y) ? x : y;
+}
 int main()
 {
     /* function template = describes what a function looks like.ab
@@ -6,6 +13,5 @@ int main()
     each using different data types
     */
 
-    
     return 0;
 }
