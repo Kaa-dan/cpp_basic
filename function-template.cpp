@@ -2,6 +2,10 @@
 
 template <typename T> // template parameter declaration
 
+// template <typename T, typename U>this will make to accept 2 different types of data type
+
+
+//here put auto keyword if compiler will automatically check the return value 
 T max(T x, T y)
 {
     return (x > y) ? x : y;
